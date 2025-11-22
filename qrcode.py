@@ -1,7 +1,7 @@
 #pip install qrcode
 
 #pip install pillow
-
+import webbrowser
 import qrcode
 from PIL import Image, ImageTk
 import tkinter as tk
@@ -46,6 +46,8 @@ def choose_logo():
     path= filedialog.askopenfilename(filetypes=[("Image files", "*.png;*.jpg;*.jpeg")])
     if path:
         logo_path.set(path)
+def open_history():
+    webbrowser.open("https://en.wikipedia.org/wiki/QR_code#History")
 
 root= tk.Tk()
 root.title("QR Code Generator by Yug")
@@ -60,7 +62,7 @@ logo_path = tk.StringVar(value="")
 tk.Button(root, text="Pick Fill Colour", command=lambda: choose_color(fill_color)).pack(pady=2)
 tk.Button(root, text="Pick Background Colour", command=lambda: choose_color(back_color)).pack(pady=2)
 tk.Button(root, text="Choose Logo (optional)", command=choose_logo).pack(pady=2)
-
+tk.Button(root, text="Easter egg", command=open_history, fg="blue").pack(pady=2)
 tk.Button(root, text="Generate QR Code", command=generate_qrcode, bg="green", fg="white").pack(pady=10)
 
 root.mainloop()
