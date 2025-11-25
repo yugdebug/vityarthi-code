@@ -56,3 +56,12 @@ python your_filename.py
 8.sometime try the easter egg too :) 
 
 9.Open the saved file and use a QR scanner app on your mobile device to scan it.
+
+## Screenshots 
+<img width="607" height="395" alt="Screenshot 2025-11-25 184818" src="https://github.com/user-attachments/assets/6ab81764-1c45-47d1-a4a2-87b74afee477" />
+<img width="710" height="556" alt="Screenshot 2025-11-25 184832" src="https://github.com/user-attachments/assets/eb0c86a6-1b7a-4290-982d-1b43909da515" />
+<img width="979" height="773" alt="Screenshot 2025-11-25 184912" src="https://github.com/user-attachments/assets/49ce7171-758f-4632-840e-b7206ec4ae62" />
+<img width="654" height="652" alt="Screenshot 2025-11-25 184935" src="https://github.com/user-attachments/assets/0dd5bf1c-3762-40bb-9de9-021ac58d83c6" />
+
+
+
